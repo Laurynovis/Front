@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rowcontainer{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.icon { 
+    max-width: 30px;
+    height: auto;
+}
+
+.button-with-icon {
+    width: auto;
+    height: 40px;
+    background-color: #71717a;
+    color: #000000;
+
+    align-self: center;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px #363535;
+}
+
+.button-with-icon:hover {
+    background-color: #52525b;
+    cursor: pointer;
+    
+}
+
+form.container input {
+    width: 240px; 
+    height: 32px;
+    background-color: #71717a;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px #363535;
+
+}
+
+form.rowcontainer input {
+    width: 112.5px; 
+    height: 32px;
+    background-color: #71717a;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px #363535;
+}
+
+button[type='submit'] {
+    background-color: #1E0A1D;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    width: 240px;
+    align-self: center;
+}
+
+button[type='submit']:hover{
+    cursor: pointer;
+    background-color: #0c030c ;
+    color: #a1a1aa;
+
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.textinfo {
+    font-size: 10px;
+    color: #363535;
+}
+
+.textrow{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+
+
+.textinfobtnimg {
+    font-size: 10px;
+    color: #363535;
+
+}
+
+.txtbtn{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.txtbtn:hover {
+    cursor: pointer;
+     color: #06b6d4;
+}
+
+.linehr {
+    width: 200px;
+    height: 1px;
+    border: 0px;
+    background-color: #000000;
+}
